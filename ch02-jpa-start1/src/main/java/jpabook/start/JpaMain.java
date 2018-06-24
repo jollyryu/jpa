@@ -18,7 +18,7 @@ public class JpaMain {
 
         try {
 
-
+        	//test
             tx.begin(); //트랜잭션 시작
             logic(em);  //비즈니스 로직
             tx.commit();//트랜잭션 커밋
